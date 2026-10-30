@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://anillotravel.com/sitemap.xml
