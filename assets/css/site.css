@@ -1031,3 +1031,13 @@ li.on .hl-n, .place.on .hl-n { background: var(--terra); }
 .gmap-on { background: var(--gold); color: var(--navy-deep) !important; }
 .gmap-bar a:hover { background: rgba(255,255,255,.14); }
 @media (max-width: 760px) { .gmap { min-height: 0; } .gmap iframe { min-height: 340px; } .gmap-bar { align-self: stretch; } .gmap-bar > * { flex: 1; justify-content: center; } }
+
+/* "Próximamente": hueco de la galería de viajeros mientras no haya fotos y vídeos reales */
+.soon { display: flex; gap: 20px; align-items: flex-start; padding: 28px; border: 1.5px dashed var(--line); border-radius: var(--radius); background: var(--white); }
+.soon-ico { flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--sand); color: var(--gold); }
+.soon-ico svg { width: 22px; height: 22px; }
+.soon-tag { display: inline-block; padding: 3px 10px; border-radius: 999px; background: var(--gold); color: #fff; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 600; }
+.soon h3 { margin: 10px 0 6px; font-family: var(--f-display); font-weight: 400; font-size: 1.4rem; color: var(--navy); }
+.soon p { margin: 0; color: var(--muted); max-width: 56ch; }
+.soon .btn { margin-top: 16px; }
+@media (max-width: 600px) { .soon { flex-direction: column; padding: 22px; } }
